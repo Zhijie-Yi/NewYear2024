@@ -64,7 +64,7 @@ function draw() {
     let bgColor = color(params.backgroundColor);
     background(bgColor);
     textAlign(CENTER, CENTER); // 设置文字对齐方式为居中
-let message = "2024\nHAPPY\nCHINESE\nNEWYEAR!";
+//let message = "2024\nHAPPY\nCHINESE\nNEWYEAR!";
   textSize(46); // 设置文字大小
   fill(0); // 设置文字颜色为黑色
   text(message, width / 2, height / 2); // 在画布中心绘制文字
