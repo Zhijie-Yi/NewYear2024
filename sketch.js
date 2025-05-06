@@ -67,7 +67,7 @@ function draw() {
 //let message = "2024\nHAPPY\nCHINESE\nNEWYEAR!";
   textSize(46); // 设置文字大小
   fill(0); // 设置文字颜色为黑色
-  text(message, width / 2, height / 2); // 在画布中心绘制文字
+ //text(message, width / 2, height / 2); // 在画布中心绘制文字
     let angle = atan2(mouseY - y[0], mouseX - x[0]);
     x[0] = mouseX - cos(angle) * params.textSpacing;
     y[0] = mouseY - sin(angle) * params.textSpacing;
